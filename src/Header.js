@@ -1,12 +1,15 @@
 import React from "react";
 import "./CSS/Header.css";
-import logo from "./Images/logo.png";
 import { ShoppingBasket, Search } from "@material-ui/icons";
 
 function Header() {
   return (
     <div className="header">
-      <img className="header__logo" src={logo} alt="Cannot load" />
+      <img
+        className="header__logo"
+        src="http://pngimg.com/uploads/amazon/amazon_PNG11.png"
+        alt="Cannot load"
+      />
 
       <div className="header__search">
         <input className="header__searchInput" type="text"></input>
